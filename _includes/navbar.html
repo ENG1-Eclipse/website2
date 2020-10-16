@@ -1,0 +1,40 @@
+<nav class="navbar navbar-dark navbar-expand-md bg-primary mb-4">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+        <button data-toggle="collapse" class="navbar-toggler" data-target="#menu">
+            <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"
+            id="menu">
+            <ul class="nav navbar-nav ml-auto">
+                {% assign links = site.data.navigation %}
+                {% for link in links %}
+                    {% assign class = nil %}
+                    {% if page.url contains link.url %}
+                        {% assign class = 'active' %}
+                    {% endif %}
+                    {% if link.sublinks %}
+                        <li class="nav-item dropdown">
+                            <a href="{% if link.external == false %}{{ site.url }}{{ site.baseurl }}{%endif%}{{ link.url }}" class="nav-link dropdown-toggle {{ class }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                {% for sublink in link.sublinks %}
+                                    {% if sublink.title == 'separator' %}
+                                        <div role="separator" class="divider"></div>
+                                    {% else %}
+                                        <a class="dropdown-item" href="{% if sublink.external == false %}{{ site.url }}{{ site.baseurl }}{%endif%}{{ sublink.url }}">{{ sublink.title }}</a>
+                                    
+                                        {% endif %}
+                                {% endfor %}
+                            </div>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link {{ class }}" href="{% if link.external == false %}{{ site.url }}{{ site.baseurl }}{%endif%}{{ link.url }}">{{ link.title }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+        
+            </ul>
+        </div>
+    </div>
+</nav>

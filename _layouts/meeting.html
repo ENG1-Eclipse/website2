@@ -1,0 +1,47 @@
+---
+layout: slim
+---
+
+<h1>{{page.title | camelcase }}</h1>
+
+{% if page.attendance == false %} 
+    {% assign page.attendance = "All" %}
+{% endif %}
+
+<table>
+    <tr>
+        <td>
+            Meeting Date:
+        </td>
+        <td class="pl-3">
+            {{ page.date | date: '%B %d, %Y' }}
+        </td>
+    </tr>
+    {% if page.location %} 
+
+    <tr>
+        <td>
+            Meeting Location:
+        </td>
+        <td class="pl-3">
+            {{ page.location }}
+        </td>
+    </tr>
+    {% endif %}
+    <tr>
+        <td>
+            Attendance:
+        </td>
+        <td class="pl-3">
+        {% if page.attendance %} 
+            {{ page.attendance }}
+        {% else %}
+            All
+        {% endif %}
+        </td>
+
+    </tr>
+</table>
+<hr>
+{{content}}
+ 

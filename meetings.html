@@ -1,0 +1,16 @@
+---
+title: Meetings
+permalink: /meetings/
+---
+
+<h1>Meetings</h1>
+<ul class="list-group">
+    {% assign sortedMeetings = site.meetings | sort: 'date' | reverse%}
+    {% for meeting in sortedMeetings %}
+      <li class="list-group-item list-group-item-action">
+        <a class="stretched-link link-undecorated h3" href="{{ meeting.url }}">{{ meeting.title }}</a>
+        <br>
+        {{ meeting.date | date: '%B %d, %Y' }}
+      </li>
+    {% endfor %}    
+</ul>

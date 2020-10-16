@@ -1,0 +1,21 @@
+---
+title: Deliverables
+permalink: /deliverables/
+---
+
+<h1 class="display-4">
+    Deliverables
+</h1>
+<ul>
+    {% for item in site.data.deliverables %}
+      <li>
+        {% if item.file %}
+            <a href="{{ site.url }}{{ site.baseurl }}{{item.file}}" download>{{item.name | camelcase}}</a>
+        {% elsif item.url %}
+            <a href="{{item.url}}">{{item.name | camelcase}}</a>
+        {% else %}
+            {{item.name | camelcase}}
+        {% endif %}
+      </li>
+    {% endfor %}
+</ul>
