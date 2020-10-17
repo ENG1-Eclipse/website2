@@ -20,7 +20,7 @@
 
 title: Auber
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "ENG1-Group4.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ENG1-Group4.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 collections:
   meetings:
     output: true
