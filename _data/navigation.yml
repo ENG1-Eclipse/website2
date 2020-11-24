@@ -4,3 +4,8 @@
   url: /deliverables
 - title: Documentation
   url: /docs
+- title: View on Github
+  url: https://github.com/ENG1-Group4/Auber
+  external: true
+- title: Download Game
+  url:
