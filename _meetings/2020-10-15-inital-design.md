@@ -32,3 +32,6 @@ location: Zoom & Discord
     -   Drawing done to allow us to look at design different parts of the game.
 
 -   Done Informal requirements
+-   Create the weeks gantt  diagrams
+
+![Week 3](/assets/images/Week 3.png)

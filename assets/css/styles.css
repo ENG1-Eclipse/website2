@@ -24,3 +24,10 @@ body {
 .link-undecorated, .link-undecorated:link, .link-undecorated:hover {
   text-decoration: none;
 }
+
+/*
+-----------------------------------------------------*/
+.meeting-note img {
+  max-width: 100%;
+  height: auto;
+}
