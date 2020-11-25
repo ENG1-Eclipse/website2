@@ -2,15 +2,19 @@
   url: https://eng1-group4.github.io/
 
 - name: Requirements
-  file: "/assets/files/Requirements.pdf"
+  file: "/assets/files/Req1.pdf"
 
 - name: Architecture
+  file: "/assets/files/Arch1.pdf"
 
 - name: Method selection and planning
+  file: "/assets/files/Plan1.pdf"
 
 - name: Risk assessment and mitigation
+  file: "/assets/files/Risk.pdf"
 
 - name: Implementation
+  file: "/assets/files/Impl.pdf"
 
 - name: Optional self-assessment table (Not Uploaded to website to preserve anonymity)
 
