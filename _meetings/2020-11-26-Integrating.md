@@ -13,4 +13,4 @@ location: Zoom & Discord
 - Bogdan to work on a map overlay
 - Create the weeks gantt diagrams
 
-![Week 8]({{ site.baseurl }}/assets/images/Week 8.png)
+![Week 8](/assets/images/Week 8.PNG)

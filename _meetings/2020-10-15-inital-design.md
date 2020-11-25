@@ -34,4 +34,4 @@ location: Zoom & Discord
 -   Done Informal requirements
 -   Create the weeks gantt  diagrams
 
-![Week 3](/assets/images/Week 3.png)
+![Week 3](/assets/images/Week 3.PNG)
