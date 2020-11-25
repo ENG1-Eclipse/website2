@@ -12,5 +12,7 @@
 
 - name: Implementation
 
-- name: Optional self-assessment table
+- name: Optional self-assessment table (Not Uploaded to website to preserve anonymity)
 
+- name: Project JAR File
+  file: "/assets/ENG1-Group4-Auber.jar"
