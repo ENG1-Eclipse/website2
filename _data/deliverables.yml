@@ -4,14 +4,30 @@
 - name: Architecture (Team 4 Original)
   file: "/assets/files/Arch1.pdf"
 
-- name: Method selection and planning (Team 4 Original)
+- name: Method Selection and Planning (Team 4 Original)
   file: "/assets/files/Plan1.pdf"
 
-- name: Risk assessment and mitigation (Team 4 Original)
+- name: Risk Assessment and Mitigation (Team 4 Original)
   file: "/assets/files/Risk1.pdf"
 
 - name: Implementation (Team 4 Original)
   file: "/assets/files/Impl1.pdf"
+  
+- name: Requirements (Updated)
+
+- name: Architecture (Updated)
+
+- name: Method Selection and Planning (Updated)
+
+- name: Risk Assessment and Mitigation (Updated)
+
+- name: Implementation (Updated / New)
+
+- name: Change Report (New)
+
+- name: Continuous Integration (New)
+
+- name: Testing (New)
 
 - name: Project JAR File
-  file: "#"
+
