@@ -1,17 +1,17 @@
 - name: Requirements (Team 4 Original)
-  file: "https://eng1-eclipse.github.io/website2/assets/files/Req1.pdf"
+  file: "/assets/files/Req1.pdf"
 
 - name: Architecture (Team 4 Original)
-  file: "https://eng1-eclipse.github.io/website2/assets/files/Arch1.pdf"
+  file: "/assets/files/Arch1.pdf"
 
 - name: Method selection and planning (Team 4 Original)
-  file: "https://eng1-eclipse.github.io/website2/assets/files/Plan1.pdf"
+  file: "/assets/files/Plan1.pdf"
 
 - name: Risk assessment and mitigation (Team 4 Original)
-  file: "https://eng1-eclipse.github.io/website2/assets/files/Risk1.pdf"
+  file: "/assets/files/Risk1.pdf"
 
 - name: Implementation (Team 4 Original)
-  file: "https://eng1-eclipse.github.io/website2/assets/files/Impl1.pdf"
+  file: "/assets/files/Impl1.pdf"
 
 - name: Project JAR File
   file: "#"
