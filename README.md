@@ -1,6 +1,6 @@
 # Organisation Website
 
-This is a [Jekyll](https://jekyllrb.com/) project designed for use with [GitHub Pages](https://pages.github.com/). This project will have content added to it as we go through our project creating a game called [Auber](https://github.com/ENG1-Group4/Auber).
+This is a [Jekyll](https://jekyllrb.com/) project designed for use with [GitHub Pages](https://pages.github.com/). This project will have content added to it as we go through our project creating a game called [Auber](https://github.com/ENG1-Eclipse/Team1-Game2).
 
 
 ## Installation
@@ -19,6 +19,8 @@ The variables for each meeting are as follows, unless stated they are required:
 - `title`, the title of the meeting
 - `location`, the location of the meeting
 - `attendance`, who attended the meeting. This option is not required and defaults to 'All' if not set.
+
+__Note__: This website feature is not currently in use.
 
 ### Editing the Deliverables
 
@@ -52,7 +54,11 @@ In order to add/edit/delete entries from the main menu, you have to edit the nav
 
 ```
 ## Authors and acknowledgment
+[Team 4:] (https://github.com/eng1-group4)
 The initial versions for the site were completed by [Robert Watts](https://github.com/Robert-Watts). The rest of our ENG1 Team have contributed to the content for this site.
+
+[Team 1:](https://github.com/eng1-eclipse)
+This site has been adapted to be used in Assessment 2 by [Harry Smith](https://github.com/HTS126). All team members have contributed to the deliverables and code on this website.
 
 ## Contributing
 This project is not currently open for contributors outside of our organisation. 
