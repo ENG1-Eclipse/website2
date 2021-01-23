@@ -1,9 +1,11 @@
 - title: Deliverables
-  url: /deliverables
+  url: https://eng1-eclipse.github.io/website2/deliverables/
 - title: Documentation
-  url: /docs
-- title: View on Github
+  url: https://eng1-eclipse.github.io/website2/docs/
+- title: GitHub
   url: https://github.com/ENG1-Eclipse/Team1-Game2
   external: true
+- title: Gantt Charts
+  url: #
 - title: Download Game
   url: #
