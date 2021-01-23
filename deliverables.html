@@ -10,7 +10,7 @@ permalink: /deliverables/
     {% for item in site.data.deliverables %}
       <li>
         {% if item.file %}
-            <a href="{{item.file}}" download>{{item.name | camelcase}}</a>
+            <a href="{{ site.url }}{{ site.baseurl }}{{item.file}}" download>{{item.name | camelcase}}</a>
         {% elsif item.url %}
             <a href="{{item.url}}">{{item.name | camelcase}}</a>
         {% else %}
