@@ -1,5 +1,7 @@
-- name: Requirements (Team 4 Original)
-  file: "/assets/files/Req1.pdf"
+- name: Test
+  sublinks:
+  - name: Requirements (Team 4 Original)
+    file: "/assets/files/Req1.pdf"
 
 - name: Architecture (Team 4 Original)
   file: "/assets/files/Arch1.pdf"
