@@ -54,10 +54,13 @@ In order to add/edit/delete entries from the main menu, you have to edit the nav
 
 ```
 ## Authors and acknowledgment
-[Team 4:] (https://github.com/eng1-group4)
+[Team 4:](https://github.com/eng1-group4)
+
 The initial versions for the site were completed by [Robert Watts](https://github.com/Robert-Watts). The rest of our ENG1 Team have contributed to the content for this site.
 
+
 [Team 1:](https://github.com/eng1-eclipse)
+
 This site has been adapted to be used in Assessment 2 by [Harry Smith](https://github.com/HTS126). All team members have contributed to the deliverables and code on this website.
 
 ## Contributing
