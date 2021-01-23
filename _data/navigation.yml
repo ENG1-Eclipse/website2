@@ -1,11 +1,9 @@
-- title: Meeting Notes
-  url: /meetings
 - title: Deliverables
   url: /deliverables
 - title: Documentation
   url: /docs
 - title: View on Github
-  url: https://github.com/ENG1-Group4/Auber
+  url: https://github.com/ENG1-Eclipse/Team1-Game2
   external: true
 - title: Download Game
-  url: /assets/ENG1-Group4-Auber.jar
+  url: #
