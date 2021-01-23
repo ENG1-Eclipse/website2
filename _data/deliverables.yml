@@ -1,22 +1,17 @@
-- name: Website
-  url: https://eng1-group4.github.io/
+- name: Requirements (Original)
+  file: "https://eng1-eclipse.github.io/website2/assets/files/Req1.pdf"
 
-- name: Requirements
-  file: "/assets/files/Req1.pdf"
+- name: Architecture (Original)
+  file: "https://eng1-eclipse.github.io/website2/assets/files/Arch1.pdf"
 
-- name: Architecture
-  file: "/assets/files/Arch1.pdf"
+- name: Method selection and planning (Original)
+  file: "https://eng1-eclipse.github.io/website2/assets/files/Plan1.pdf"
 
-- name: Method selection and planning
-  file: "/assets/files/Plan1.pdf"
+- name: Risk assessment and mitigation (Original)
+  file: "https://eng1-eclipse.github.io/website2/assets/files/Risk1.pdf"
 
-- name: Risk assessment and mitigation
-  file: "/assets/files/Risk1.pdf"
-
-- name: Implementation
-  file: "/assets/files/Impl1.pdf"
-
-- name: Optional self-assessment table (Not Uploaded to website to preserve anonymity)
+- name: Implementation (Original)
+  file: "https://eng1-eclipse.github.io/website2/assets/files/Impl1.pdf"
 
 - name: Project JAR File
-  file: "/assets/ENG1-Group4-Auber.jar"
+  file: "#"
