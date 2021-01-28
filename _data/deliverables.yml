@@ -1,15 +1,15 @@
-- name: Assessment 1 - Requirements (Team 4 Original)
+- name: Requirements
   file: "/assets/files/Req1.pdf"
 
-- name: Assessment 1 - Architecture (Team 4 Original)
+- name: Architecture
   file: "/assets/files/Arch1.pdf"
 
-- name: Assessment 1 - Method Selection and Planning (Team 4 Original)
+- name: Method Selection and Planning
   file: "/assets/files/Plan1.pdf"
 
-- name: Assessment 1 - Risk Assessment and Mitigation (Team 4 Original)
+- name: Risk Assessment and Mitigation
   file: "/assets/files/Risk1.pdf"
 
-- name: Assessment 1 - Implementation (Team 4 Original)
+- name: Implementation
   file: "/assets/files/Impl1.pdf"
 
