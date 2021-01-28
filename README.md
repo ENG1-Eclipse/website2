@@ -11,17 +11,6 @@ NOTE: if you are using Jekyll with GitHub Pages, see the [GitHub Pages installat
 
 ## Usage
 
-### Meeting
-
-We have chosen to store our group meetings on the site to help us see the changes. All the meetings are stored as markdown files. [Jekyll](https://jekyllrb.com/) Collections are used to dsiplay and track them. This means when creating a new meeting you need to create a new MD file with the name *YEAR*-*MONTH*-*DAY*-*MEETING TITLE*.md
-
-The variables for each meeting are as follows, unless stated they are required: 
-- `title`, the title of the meeting
-- `location`, the location of the meeting
-- `attendance`, who attended the meeting. This option is not required and defaults to 'All' if not set.
-
-__Note__: This website feature is not currently in use.
-
 ### Editing the Deliverables
 
 Under the project, all the deliverables have to be displayed on the website. In order to add/edit/delete entries from the deliverables list you have to edit the deliverables.yml file inside _data folder. You can define the order and links of each of the deliverables.
