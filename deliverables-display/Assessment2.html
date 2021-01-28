@@ -1,0 +1,21 @@
+---
+title: Assessment 2 Deliverables
+permalink: /deliverables/assessment2/
+---
+
+<h2 class="display-4">
+    Assessment 2 Deliverables
+</h2>
+<ul>
+    {% for item in site.data.newdeliverables %}
+      <li>
+        {% if item.file %}
+            <a href="{{ site.url }}{{ site.baseurl }}{{item.file}}" download>{{item.name | camelcase}}</a>
+        {% elsif item.url %}
+            <a href="{{item.url}}">{{item.name | camelcase}}</a>
+        {% else %}
+            {{item.name | camelcase}}
+        {% endif %}
+      </li>
+    {% endfor %}
+</ul>
