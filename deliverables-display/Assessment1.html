@@ -8,9 +8,9 @@ permalink: /deliverables/assessment1/
     {% for item in site.data.deliverables %}
       <li class="list-group-item list-group-item-action">
         {% if item.file %}
-            <a class="stretched-link link-undecorated h3" href="{{ site.url }}{{ site.baseurl }}{{item.file}}" download>{{item.name | camelcase}}</a>
+            <a class="stretched-link link-undecorated h5" href="{{ site.url }}{{ site.baseurl }}{{item.file}}" download>{{item.name | camelcase}}</a>
         {% elsif item.url %}
-            <a class="stretched-link link-undecorated h3" href="{{item.url}}">{{item.name | camelcase}}</a>
+            <a class="stretched-link link-undecorated h5" href="{{item.url}}">{{item.name | camelcase}}</a>
         {% else %}
             {{item.name | camelcase}}
         {% endif %}
