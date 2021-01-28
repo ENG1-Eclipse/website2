@@ -3,6 +3,21 @@ title: Gantt Charts
 permalink: /gantt-charts/
 ---
 
-<h1 class="display-4">
-    Gantt Charts
-</h1>
+<h1>Gantt Charts</h1>
+<ul class="list-group">
+    {% assign sortedMeetings = site.meetings | sort: 'date' | reverse%}
+    {% for meeting in sortedMeetings %}
+      <li class="list-group-item list-group-item-action">
+        <a class="stretched-link link-undecorated h3" href="{{ meeting.url }}">{{ meeting.title }}</a>
+        <br>
+        {{ meeting.date | date: '%B %d, %Y' }}
+      </li>
+    {% endfor %}   
+    
+    {% for gantt in site.gantt}
+      <li class="list-group-item list-group-item-action">
+        <a class="stretched-link link-undecorated h3" href="{{ gantt.url }}">{{ gantt.title }}</a>
+        <br>
+      </li>
+    {% endfor %} 
+</ul>
