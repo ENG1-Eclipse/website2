@@ -3,19 +3,14 @@ title: Deliverables
 permalink: /deliverables/
 ---
 
-<h1 class="display-4">
-    Deliverables
-</h1>
-<ul>
-    {% for item in site.data.deliverables %}
-      <li>
-        {% if item.file %}
-            <a href="{{ site.url }}{{ site.baseurl }}{{item.file}}" download>{{item.name | camelcase}}</a>
-        {% elsif item.url %}
-            <a href="{{item.url}}">{{item.name | camelcase}}</a>
-        {% else %}
-            {{item.name | camelcase}}
-        {% endif %}
-      </li>
-    {% endfor %}
+<h1>Deliverables</h1>
+<ul class="list-group">
+    <li class="list-group-item list-group-item-action">
+        <a class="stretched-link link-undecorated h3" href="https://eng1-eclipse.github.io/website2/deliverables/assessment1/">Assessment 1</a>
+        <br>
+     </li> 
+    <li class="list-group-item list-group-item-action">
+        <a class="stretched-link link-undecorated h3" href="https://eng1-eclipse.github.io/website2/deliverables/assessment2/">Assessment 2</a>
+        <br>
+     </li>   
 </ul>
