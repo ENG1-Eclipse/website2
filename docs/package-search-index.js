@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.team1.Auber"},{"l":"com.team1.Auber.desktop"},{"l":"com.team1.Auber.HUD"},{"l":"com.team1.Auber.OperativeAI"},{"l":"com.team1.Auber.Smoke"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.team1.Auber"},{"l":"com.team1.Auber.desktop"},{"l":"com.team1.Auber.HUD"},{"l":"com.team1.Auber.OperativeAI"},{"l":"com.team1.Auber.Smoke"},{"l":"de.tomgrill.gdxtesting"},{"l":"de.tomgrill.gdxtesting.examples"}]
