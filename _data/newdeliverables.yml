@@ -1,18 +1,26 @@
 - name: Requirements (Updated)
+  file: "assets/files/Req1-Updated.pdf"
 
 - name: Architecture (Updated)
+  file: "assets/files/Arch1-Updated.pdf"
 
 - name: Method Selection and Planning (Updated)
+  file: "assets/files/Plan1-Updated.pdf"
 
 - name: Risk Assessment and Mitigation (Updated)
+  file: "assets/files/Risk1-Updated.pdf"
 
 - name: Implementation
+  file: "assets/files/Impl2.pdf"
 
 - name: Change Report
+  file: "assets/files/Change2.pdf"
 
 - name: Continuous Integration
+  file: "assets/files/CI2.pdf"
 
 - name: Testing
+  file: "assets/files/Test2.pdf"
 
 - name: Download Game (JAR File)
   file: "assets/auber.jar"
