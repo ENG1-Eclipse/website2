@@ -1,15 +1,15 @@
 - name: Requirements
-  file: "/assets/files/Req1.pdf"
+  file: "assets/files/Req1.pdf"
 
 - name: Architecture
-  file: "/assets/files/Arch1.pdf"
+  file: "assets/files/Arch1.pdf"
 
 - name: Method Selection and Planning
-  file: "/assets/files/Plan1.pdf"
+  file: "assets/files/Plan1.pdf"
 
 - name: Risk Assessment and Mitigation
-  file: "/assets/files/Risk1.pdf"
+  file: "assets/files/Risk1.pdf"
 
 - name: Implementation
-  file: "/assets/files/Impl1.pdf"
+  file: "assets/files/Impl1.pdf"
 
