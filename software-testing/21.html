@@ -10,8 +10,14 @@ Here, we test 021 - Do the relevant assets exist within the game files?
 <br>
 <br> 
 
-This was tested via automated testing using LibGDX. 
+This was tested via automated testing using LibGDX Testing, <a href="https://github.com/TomGrill/gdx-testing">created by TomGrill</a>.  
+<br>We used the following methods in the test, which are then checked by a parent method to determine a pass or fail:
+<br> - mapAssetsExist() - Checks all map assets exist in the game.
+<br> - skinAssetsExist() - Checks all character assets exist in the game.
+<br> - audioAssetsExist() - Checks all audio files are present.
+<br> - imgAssetsExist() - Checks all other in-game images are present.
+<br> - imgMenuAssetsExist() - Checks all assets relating to in-game menus exist.
 <br>
-The output report, showing that the test passed, is below:
+<br>The output report, showing that the test passed, is below:
 <br>
 <img src="/website2/assets/images/autoTestAssets.png"  class="img-thumbnail mb-3" />
