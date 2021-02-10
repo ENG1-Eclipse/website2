@@ -1,10 +1,5 @@
 - title: Deliverables
   url: https://eng1-eclipse.github.io/website2/deliverables/
-  sublinks:
-    - title: Assessment 1
-      url: https://eng1-eclipse.github.io/website2/deliverables/assessment1/
-    - title: Assessment 2
-      url: https://eng1-eclipse.github.io/website2/deliverables/assessment2/
 - title: JavaDoc
   url: https://eng1-eclipse.github.io/website2/docs/
 - title: GitHub
