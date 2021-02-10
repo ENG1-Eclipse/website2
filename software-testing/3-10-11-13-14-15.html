@@ -14,9 +14,16 @@ Here, we test the following:
 
 <br>
 <br> 
-
-These were tested via automated testing using LibGDX. 
+This was tested via automated testing using LibGDX Testing, <a href="https://github.com/TomGrill/gdx-testing">created by TomGrill</a>. 
 <br>
-The output report, showing that the tests passed, is below:
+<br>We used the following methods in the test, which then determine a pass or fail:
+<br> - operativesEqualsEight() - Checks if there are eight operatives in the mapdata.json file.
+<br> - systemsEqualsFifteen() - Checks if there are at least 15 rooms, and as each room has a system, 15 systems.
+<br> - fourUniqueRoomsExist() - Checks there are at least four rooms with unique names.
+<br> - twoTeleportersExist() - Checks if there are at least two teleporters in the data file.
+<br> - oneInfirmaryRoomExists() - Loops through the names of all rooms, and ensures that one is called 'Medbay'.
+<br> - medbayTeleporterExists() - Looks at the JSON entry for Medbay and checks that an integer list exists in the teleporterCoods entry.
+<br>
+<br>The output report, showing that the test passed, is below:
 <br>
 <img src="/website2/assets/images/autoTestFR.png"  class="img-thumbnail mb-3" />
